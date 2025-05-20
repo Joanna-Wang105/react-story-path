@@ -1,8 +1,18 @@
-# React + Vite
+# StoryPath
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+StoryPath is a location experience platform designed to allow users to create and explore virtual museum exhibits, location-based tours, and treasure hunts with clues. It allows users to create multiple projects and add locations to project. The content of the location can be triggered by location entry or by scanning a QR code. 
 
-Currently, two official plugins are available:
+## Installation
+```bash
+# Install dependencies
+npm install
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Start the development server
+npm run dev
+```
+## Usage
+- After starting the development server, open your browser at http://localhost:3000
+
+- Create projects and add locations
+
+- Test location triggers or QR code scanning functionality
