@@ -1,0 +1,72 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+
+/* I used style.css instead of App.css for additinoal style that was not in Bootstrap */ 
+
+/* Home Page - image used for slider */
+.bg-img-1 {
+    background-image: url("../src/images/museum.png");
+
+}
+
+.bg-img-2 {
+    background-image: url("../src/images/location.png");
+}
+
+.bg-img-3 {
+    background-image: url("../src/images/treasure.png");
+}
+
+.carousel-image {
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.carousel-control-prev-icon,
+  .carousel-control-next-icon{
+    background-color: rgb(131, 138, 136);
+    width: 50px;
+    height: 50px;  
+}
+
+.custom-btn {
+    color: rgb(255, 250, 250);
+    font-size: 24px; 
+}
+
+
+/* Project page - spacing the buttons */
+.btn-space {
+    margin-left: 3px;
+}
+
+.left-btn {
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.right-btn {
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.word-height {
+    height: 8px;
+}
+
+/* Preview Page - colour of the card (the content displayed section) */
+.text-bg-preview {
+    background-color: rgb(255, 254, 218);
+}
+
+.title-color {
+    color: rgb(85, 55, 193);
+}
+
+.leaflet-container {
+    height: 50vh;
+}
